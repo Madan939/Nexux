@@ -1,0 +1,59 @@
+{
+  "metaTitle": {
+    "title": "Services | Nexux Labs",
+    "description": "We are a passionate team building web experiences."
+  },
+  "heroSection": {
+    "btnText": "Comprehensive Solutions",
+    "title": "Comprehensive Digital Solutions Tailored To Your Business Needs",
+    "subtitle": "From strategy and design to development and optimization, we deliver comprehensive digital solutions that accelerate growth and transform your business.",
+    "cta_1": "Book Consultation",
+    "cta_2": "View Case Studies"
+  },
+  "capabilities": {
+    "title": "Our Capabilities",
+    "heading": "Services That",
+    "colorheading": "Drive Results",
+    "description": "End-to-end digital solutions designed to elevate your brand and maximize your impact."
+  },
+  "process": {
+    "title": "Our Process",
+    "heading": "A Proven",
+    "colorheading": "Methodology",
+    "heading_1": "That Delivers",
+    "colorheading_1": "Results",
+    "heading_2": "Every time.",
+    "description": "Our process blends strategy, design, and technology — ensuring that every product we build is user-centric, future-ready, and aligned with your business goals from day one.",
+    "steps": {
+      "1": {
+        "title": "Discover insights that define your vision",
+        "description": "We start by understanding your business goals, challenges,and target audience."
+      },
+      "2": {
+        "title": "Design experiences that captivate and connect",
+        "description": "We dive deep into your objectives and challenges to shape a strategy that ensures lasting digital success."
+      },
+      "3": {
+        "title": "Develop solutions that perform and scale effortlessly",
+        "description": "Our engineers build robust, scalable solutions using cutting-edge technologies.."
+      },
+      "4": {
+        "title": "Launch, support, and continuously optimize",
+        "description": "We deploy your solution and provide ongoing support to ensure continued success."
+      }
+    }
+  },
+  "fromLabs": {
+    "title": "From The Labs",
+    "heading": "Why Choose",
+    "colorheading": "Nexus Lab",
+    "heading_1": "for Your Digital Needs?",
+    "list": [
+      "Award-winning team with 10+ years of industry experience",
+      "End-to-end solutions from strategy to support",
+      "Data-driven approach to maximize ROI",
+      "24/7 dedicated support and optimization",
+      "Proven track record with 500+ successful projects"
+    ]
+  }
+}

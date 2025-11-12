@@ -1,0 +1,35 @@
+{
+  "header": [
+    { "href": "/", "label": "Home" },
+    { "href": "/services", "label": "Services" },
+    { "href": "/about", "label": "About" },
+    { "href": "/team", "label": "Team" },
+    { "href": "/careers", "label": "Careers" },
+    { "href": "/blog", "label": "Blog" }
+  ],
+  "contact": { "href": "/contact", "label": "Contact Us" },
+  "Footer": {
+    "first": "Ready to Elevate Your Brand?",
+    "second": "Let’s collaborate to create something extraordinary. Get in touch with your team",
+    "button": "Start a conversation",
+    "text": "Building the future, one innovation at a time.",
+    "Company": "Company",
+    "company": [
+      { "href": "/about", "label": "About Us" },
+      { "href": "/team", "label": "Team" },
+      { "href": "/career", "label": "Careers" },
+      { "href": "/privacy-policy", "label": "Privacy Policy" }
+    ],
+    "Services": "Services",
+    "services": [
+      { "href": "/", "label": "Web Development" },
+      { "href": "/", "label": "Product Design" },
+      { "href": "/", "label": "Cloud Solutions" },
+      { "href": "/", "label": "Blog" }
+    ],
+    "connect": "Connect",
+    "rights": " All rights reserved."
+  },
+  "ctaText_1": "Get Started For Free ",
+  "ctaText_2": "Explore Our Services"
+}
