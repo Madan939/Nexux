@@ -5,7 +5,7 @@
     { "href": "/about", "label": "About" },
     { "href": "/team", "label": "Team" },
     { "href": "/careers", "label": "Careers" },
-    { "href": "/blog", "label": "Blog" }
+    { "href": "/blogs", "label": "Blogs" }
   ],
   "contact": { "href": "/contact", "label": "Contact Us" },
   "Footer": {
@@ -17,7 +17,7 @@
     "company": [
       { "href": "/about", "label": "About Us" },
       { "href": "/team", "label": "Team" },
-      { "href": "/career", "label": "Careers" },
+      { "href": "/careers", "label": "Careers" },
       { "href": "/privacy-policy", "label": "Privacy Policy" }
     ],
     "Services": "Services",
@@ -25,7 +25,7 @@
       { "href": "/", "label": "Web Development" },
       { "href": "/", "label": "Product Design" },
       { "href": "/", "label": "Cloud Solutions" },
-      { "href": "/", "label": "Blog" }
+      { "href": "/blogs", "label": "Blogs" }
     ],
     "connect": "Connect",
     "rights": " All rights reserved."

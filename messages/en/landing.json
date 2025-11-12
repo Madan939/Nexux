@@ -60,7 +60,7 @@
     "title_text_1": "from the",
     "color_title_2": "Nexux",
     "title_text_2": "Labs Team",
-    "description": "Discover the insights, inspirations, and innovations driving our team forward from design experiments and creative processes to the bold ideas defining the future of Nexus Lab.",
+    "description": "Discover the insights, inspirations, and innovations driving our team forward from design experiments and creative processes to the bold ideas defining the future of Nexux Lab.",
     "blogs": [
       {
         "img": "/images/landingpage/design-for-uiux.svg",
@@ -89,7 +89,7 @@
   },
   "Cta": {
     "btn_text": "Join Our Team",
-    "title": "Build the Future with Nexus Lab",
+    "title": "Build the Future with Nexux Lab",
     "description": "We’re looking for creative minds and tech enthusiasts ready to make an impact through innovation and collaboration.",
     "cta_text": "View Open Roles"
   },

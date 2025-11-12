@@ -12,7 +12,7 @@ type Props = {
 };
 
 // Define the namespaces explicitly (strong typing)
-const namespaces = ["landing", "about","common","services"] as const;
+const namespaces = ["landing", "about","common","services","team","career"] as const;
 type Namespace = (typeof namespaces)[number];
 
 // Map each namespace to its messages
