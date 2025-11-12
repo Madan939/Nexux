@@ -1,0 +1,57 @@
+{
+  "metaTitle": {
+    "title": "Careers | Nexux Labs",
+    "description": "We are a passionate team building web experiences."
+  },
+  "heroSection": {
+    "btnText": "Join Our Team",
+    "title": "Build the future with us. We're looking for curious minds and problem solvers",
+    "subtitle": "We’re building products that empower businesses and we’re looking for curious,driven people to build them with us",
+    "cta_1": "View Open Roles",
+    "cta_2": "Let’s Connect"
+  },
+  "bp": {
+    "title": "Benefits &",
+    "colortitle": "Perks",
+    "heading": "Where",
+    "colorheading": "Great Work",
+    "heading_1": "Meets",
+    "colorheading_1": "Great Perks",
+    "description": "We invest in our people with the right balance of flexibility, growth, and well-being to help you thrive inside and outside of work.",
+    "benifit": [
+      {
+        "icon": "dollar",
+        "title": "Competitive Salary",
+        "description": "We believe great work deserves great rewards. Our compensation packages are designed to recognize your talent, impact, and dedication with industry-leading pay, growth bonuses, and transparent reviews that evolve as you do."
+      },
+      {
+        "icon": "time",
+        "title": "Flexible Hours",
+        "description": "We understand that creativity and focus don’t always follow a 9-to-5 schedule. Enjoy flexible working hours, hybrid options, and the freedom to manage your time — so you can perform your best without compromising your balance."
+      },
+      {
+        "icon": "briefcase",
+        "title": "Growth Opportunities",
+        "description": "Your journey doesn’t stop when you join us. From mentorship and skill-building programs to leadership training and project ownership, we make sure every role helps you grow personally and professionally"
+      }
+    ],
+    "note": "Plus: Health insurance,",
+    "colornote": "401(k)",
+    "note_1": "matching, unlimited",
+    "colornote_1": "PTO",
+    "note_2": ",learning",
+    "colornote_2": "budget",
+    "note_3": ", team",
+    "colornote_3": "events",
+    "note_4": ", and more!"
+  },
+  "position": {
+    "title": "Open",
+    "colortitle": "Positions",
+    "colorheading": "Find",
+    "heading": "Your Next",
+    "colorheading_1": "Opportunity",
+    "heading_1": "with Us",
+    "description": "We invest in our people with the right balance of flexibility, growth, and well-being to help you thrive inside and outside of work."
+  }
+}

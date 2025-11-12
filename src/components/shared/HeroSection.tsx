@@ -1,5 +1,4 @@
 "use client";
-
 import { useMemo } from "react";
 import Container from "./layout/Container";
 import { Zap } from "lucide-react";
@@ -10,7 +9,7 @@ interface HeroText {
   btnText: string;
   title: string;
   subtitle: string;
-  background: string;
+  background?: string;
   cta_1: string;
   cta_1_link: string;
   cta_2: string;
@@ -27,32 +26,38 @@ const HeroSection = ({
   cta_2_link,
 }: HeroText) => {
   const isVideo = useMemo(
-    () => background.toLowerCase().includes(".mp4"),
+    () => background && background.toLowerCase().includes(".mp4"),
     [background]
   );
   return (
     <>
       <section className="relative">
-        {isVideo ? (
-          <div className="absolute inset-0">
-            <video
-              className="w-full h-full object-cover"
-              src={background}
-              autoPlay
-              loop
-              muted
-            />
-          </div>
+        {background ? (
+          <>
+            {isVideo ? (
+              <div className="absolute inset-0">
+                <video
+                  className="w-full h-full object-cover"
+                  src={background}
+                  autoPlay
+                  loop
+                  muted
+                />
+              </div>
+            ) : (
+              <div className="absolute inset-0">
+                <Image
+                  src={background || ""}
+                  alt={title}
+                  height={1000}
+                  width={100}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            )}
+          </>
         ) : (
-          <div className="absolute inset-0">
-            <Image
-              src={background}
-              alt={title}
-              height={1000}
-              width={100}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <></>
         )}
         <div
           className="absolute inset-0"
@@ -79,7 +84,7 @@ const HeroSection = ({
                 </h1>
                 <p className="font-normal leading-6 ">{subtitle}</p>
               </div>
-              <div className="flex flex-wrap justify-between md:justify-center  md:gap-6 items-center w-full">
+              <div className="flex flex-wrap justify-between md:justify-center md:gap-6 items-center w-full">
                 <Link href={cta_1_link}>
                   <StarBorder
                     as="button"

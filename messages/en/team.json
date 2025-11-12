@@ -1,0 +1,65 @@
+{
+  "metaTitle": {
+    "title": "Our Team | Nexux Labs",
+    "description": "We are a passionate team building web experiences."
+  },
+  "heroSection": {
+    "btnText": "Our Story",
+    "title": "Meet the talented and hard working team who makes all this happen",
+    "subtitle": "Our philosophy is very simple; hire great people and give them the resources and support to do their best work.",
+    "cta_1": "Get to Know Us",
+    "cta_2": "Let’s Connect"
+  },
+  "ourteam": {
+    "title": "Our Team",
+    "heading": "Talented Minds Building",
+    "colorheading": "Digital Excellence",
+    "description": "End-to-end digital solutions designed to elevate your brand and maximize your impact.",
+    "members": {
+      "1": {
+        "name": "Sarah Chen",
+        "position": "CEO & Co-Founder",
+        "description": "Sarah brings 15+ years of experience in technology and business strategy. She previously led digital transformation initiatives at Fortune 500 companies before founding Nexux Labs."
+      },
+      "2": {
+        "name": "David Kim",
+        "position": "Project Manager",
+        "description": "David is a technology visionary with 12+ years in full-stack development and AI systems. Before Nexux Labs, he led product innovation at multiple Silicon Valley startups."
+      },
+      "3": {
+        "name": "Emily Rodriguez",
+        "position": "Chief Operating Officer",
+        "description": "Emily has over a decade of experience in operations and project management. She has successfully scaled multiple tech startups by optimizing workflow and team efficiency."
+      },
+      "4": {
+        "name": "Michael Johnson",
+        "position": "Head of Product Design",
+        "description": "Michael specializes in user experience and interface design. With 10+ years in digital design, he has led creative teams to deliver award-winning products across industries."
+      },
+      "5": {
+        "name": "Ava Patel",
+        "position": "Lead Software Engineer",
+        "description": "Ava is a full-stack engineer with expertise in React, Node.js, and cloud infrastructure. She focuses on building scalable, high-performance systems for complex applications."
+      },
+      "6": {
+        "name": "James Lee",
+        "position": "Head of Marketing & Communications",
+        "description": "James has 9+ years of experience in brand strategy and digital marketing. He has successfully managed campaigns that strengthened brand identity and global engagement."
+      }
+    }
+  },
+  "count": {
+    "projectsText": "Years of Operation",
+    "experienceText": "Net Promoter Score",
+    "satisfactionText": "Client Satisfaction",
+    "membersText": "Expert Members"
+  },
+  "join": {
+    "title": "Join Our",
+    "colortitle": "Team",
+    "heading": "Join Our Team of ",
+    "colorheading": "Creators, Builders, and Thinkers",
+    "description": "We’re always looking for curious minds and passionate hearts to grow with us. If you’re ready to make an impact and be part of something meaningful, we’d love to hear from you.",
+    "cta": "View Open Roles"
+  }
+}
