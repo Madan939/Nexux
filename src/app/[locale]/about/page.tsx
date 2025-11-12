@@ -2,6 +2,10 @@ import { use } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import HeroSection from "@/src/components/shared/HeroSection";
+import MissionVision from "@/src/components/About/MissionVision";
+import OurStory from "@/src/components/About/OurStory";
+import OurJourney from "@/src/components/About/OurJourney";
+import OurValues from "@/src/components/About/OurValues";
 export async function generateMetadata({
   params,
 }: {
@@ -34,6 +38,11 @@ export default function AboutPage({
         cta_2={t("heroSection.cta_2")}
         cta_2_link="/"
       />
+
+      <MissionVision />
+      <OurStory />
+      <OurJourney />
+      <OurValues />
     </>
   );
 }

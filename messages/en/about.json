@@ -5,9 +5,126 @@
   },
   "heroSection": {
     "btnText": "Our Story",
-    "title": "Beyond Technology - Empowering Growth with Nexus Lab",
+    "title": "Beyond Technology - Empowering Growth with Nexux Lab",
     "subtitle": "We believe great digital solutions start with understanding people. Our mission is to transform businesses through innovative technology and human-centered design.",
     "cta_1": "Our Journey",
     "cta_2": "Explore Careers"
+  },
+  "missionVision": {
+    "btnText": {
+      "text1": "Our",
+      "color1": "Mission",
+      "text2": "&",
+      "color2": "Vision"
+    },
+    "title": {
+      "text1": "Innovation With ",
+      "color1": "Purpose",
+      "text2": ". Growth With",
+      "color2": "Vision"
+    },
+    "description": "Our foundation is built on core values that guide everything we do.",
+    "cardTitle1" : "Our Mission",
+    "cardDescription1": "To empower businesses through innovative technology solutions that drive growth, efficiency,and customer satisfaction. We bridge the gap between vision and execution, turning ideas into impactful digital experiences.",
+    "cardTitle2": "Our Vision",
+    "cardDescription2": "To be the world's most trusted partner in digital transformation, known for our innovation, integrity, and commitment to excellence. We envision a future where technology seamlessly enhances every aspect of business and life."
+
+  },
+  "ourStory": {
+    "btnText": {
+      "text1": "Our",
+      "color1": "Story"
+    },
+    "title": {
+      "text1": "Beyond",
+      "color1": "Technology",
+      "text2": "— Empowering Growth with",
+      "color2": "Nexux Lab"
+    },
+    "description": {
+      "d1": "Nexux Labs was born from a simple belief: that technology should empower, not complicate. Founded in 2017 by a group of engineers and designers who were frustrated with the status quo, we set out to create a different kind of technology company.",
+      "d2": "From our early days working out of a small office in San Francisco, we've grown into a global team of experts serving clients worldwide. But our core values remain the same: innovation, collaboration, and an unwavering commitment to our clients' success.",
+      "d3": "Today, we're proud to work with businesses of all sizes, from startups to Fortune 500 companies, helping them navigate the ever-changing digital landscape and achieve their goals."
+    }
+  },
+  "ourJourney": {
+    "btnText": {
+      "text1": "Our",
+      "color1": "Journey"
+    },
+    "title": {
+      "text1": "Our Journey of",
+      "color1": "Innovation",
+      "text2": "and",
+      "color2": "Growth."
+    },
+    "description": "Every step of our journey reflects our commitment to innovation and excellence — transforming ideas into impactful digital solutions and growing alongside our clients worldwide.",
+    "journeyData": [
+      {
+        "year": "2017",
+        "title": "Founded",
+        "brief": "Nexux Labs was founded by a team of passionate technologists in San Francisco.",
+        "side": "left"
+      },
+      {
+        "year": "2019",
+        "title": "Global Expansion",
+        "brief": "Opened offices in New York and London, serving clients across three continents.",
+        "side": "right"
+      },
+      {
+        "year": "2021",
+        "title": "50+ Projects",
+        "brief": "Reached milestone of 50 successful projects and 5-star client satisfaction.",
+        "side": "left"
+      },
+      {
+        "year": "2023",
+        "title": "Industry Recognition",
+        "brief": "Awarded “Best Digital Innovation Agency” by Tech Awards International.",
+        "side": "right"
+      },
+      {
+        "year": "2025",
+        "title": "Today",
+        "brief": "Leading digital transformation for businesses worldwide with a team of 40+ experts.",
+        "side": "left"
+      }
+    ]
+  },
+  "ourValues": {
+    "btnText": {
+      "text1": "Our",
+      "color1": "Values"
+    },
+    "title": {
+      "text1": "Guided by",
+      "color1": "Values",
+      "text2": ". Driven by",
+      "color2": "Innovation"
+    },
+    "description": "At Nexux Lab, our core values shape everything we create — inspiring innovation, collaboration, and excellence to deliver meaningful digital experiences for our clients.",
+    "valuesData": [
+      {
+        "icon": "target",
+        "title": "Innovation First",
+        "description": "We constantly push boundaries, explore emerging technologies, and create forward-thinking solutions that redefine possibilities."
+      },
+      {
+        "icon": "heart",
+        "title": "Customer Approach",
+        "description": "Every idea begins with understanding our clients’ needs. We design, develop, and deliver with empathy and lasting relationships in mind."
+      },
+      {
+        "icon": "people",
+        "title": "Collaborative Culture",
+        "description": "We believe great things happen when creative minds unite, share ideas freely, and work together toward common goals and shared success."
+      },
+      {
+        "icon": "badge",
+        "title": "Quality & Reliability",
+        "description": "We take pride in delivering secure, scalable, and reliable solutions built on trust, precision, and an unwavering commitment to excellence."
+      }
+    ]
   }
 }
