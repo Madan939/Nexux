@@ -23,7 +23,7 @@ export const Join = () => {
               <p className="font-normal leading-6 text-[15px] md:text-base">
                 {t("join.description")}
               </p>
-              <Link href="/" className="mt-3 inline-block">
+              <Link href="/careers/#roles" className="mt-3 inline-block">
               <PrimaryButton>{t("join.cta")}</PrimaryButton></Link>
             </section>
             <section className="w-full lg:w-4/10">

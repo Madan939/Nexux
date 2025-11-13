@@ -30,7 +30,7 @@ const Footer = () => {
               {t("Footer.second")}
             </p>
             <Link
-              href="/"
+              href="/contact-us/#contact"
               className="text-[#E50914] text-xs mt-4 md:px-10 px-3 md:py-4 py-2 md:text-lg leading-5 font-semibold inline-block bg-white rounded-3xl"
             >
               {t("Footer.button")}
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </Container>
       </section>
-      <section className="bg-[#1A1A1A] py-8 md:py-16">
+      <section className="bg-primary py-8 md:py-16">
         <Container>
           <section className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-1 space-y-3 ">

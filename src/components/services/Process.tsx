@@ -36,7 +36,7 @@ const Process = () => {
       <section className="bg-[linear-gradient(108deg,#FCE6E8_2.62%,#FFFFFF_31.21%,#FFFCFC_76.73%,#FEF3F4_95.58%,#FFFCFC_104.18%,#FDECED_118.14%)] py-[60px]">
         <Container>
           <div className="space-y-4 md:space-y-10">
-            <section className="text-center space-y-2">
+            <section className="md:text-center space-y-2">
               <ResuableButton>
                 <span className="text-[#E50914]">{t("process.title")}</span>
               </ResuableButton>

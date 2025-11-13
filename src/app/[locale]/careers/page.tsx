@@ -26,9 +26,9 @@ export default function Page() {
         title={t("heroSection.title")}
         subtitle={t("heroSection.subtitle")}
         cta_1={t("heroSection.cta_1")}
-        cta_1_link="/"
+        cta_1_link="/careers/#roles"
         cta_2={t("heroSection.cta_2")}
-        cta_2_link="/"
+        cta_2_link="/contact-us/#contact"
       />
       <Benifits />
       <Positions />

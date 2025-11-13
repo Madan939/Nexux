@@ -80,10 +80,12 @@ const Capabilities = () => {
   ];
   return (
     <>
-      <section className="bg-[linear-gradient(179deg,rgba(252,230,232,0.20)_-222.79%,rgba(255,246,247,0.20)_202.03%)] w-full h-full py-[60px]">
+      <section
+      id="services"
+      className="bg-[linear-gradient(179deg,rgba(252,230,232,0.20)_-222.79%,rgba(255,246,247,0.20)_202.03%)] w-full h-full py-[60px]">
         <Container>
           <div className="space-y-4 md:space-y-10 ">
-            <section className="text-center space-y-2">
+            <section className="md:text-center space-y-2">
               <ResuableButton>
                 <span className="text-[#E50914]">
                   {t("capabilities.title")}

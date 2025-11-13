@@ -3,6 +3,7 @@ import { cn } from "../../lib/utils";
 import { Marquee } from "../ui/marquee";
 import ResuableButton from "../shared/layout/Button";
 import { useTranslations } from "next-intl";
+import Container from "../shared/layout/Container";
 
 const reviews = [
   {
@@ -84,7 +85,7 @@ const ReviewCard = ({
           className="rounded-full"
           width="82"
           height="32"
-          alt=""
+          alt="rating-image"
           src="/images/landingpage/testimonials/Rating.svg"
         />
       </div>
@@ -98,21 +99,27 @@ export function Testimonials() {
   return (
     <>
       <section className="bg-[linear-gradient(179deg,rgba(252,230,232,0.57)_-222.79%,rgba(255,246,247,0.57)_202.03%)] py-[60px] space-y-4 md:space-y-10">
-        <div className="text-center space-y-3">
-          <ResuableButton>
-            <span className="text-[#E50914]">{t("testimonial.title")}</span>
-          </ResuableButton>
-          <h2 className="font-semibold text-2xl md:text-3xl leading-8 md:leading-10 ">
-            {t("testimonial.description")}
-          </h2>
-        </div>
+        <Container>
+          <div className="md:text-center space-y-3">
+            <ResuableButton>
+              <span className="text-[#E50914]">{t("testimonial.title")}</span>
+            </ResuableButton>
+            <h2 className="font-semibold text-2xl md:text-3xl leading-8 md:leading-10 ">
+              {t("testimonial.description")}
+            </h2>
+          </div>
+        </Container>
         <div className="relative flex w-full flex-col gap-1 items-center justify-center overflow-hidden">
           <Marquee pauseOnHover className="[--duration:20s] max-md:hidden">
             {firstRow.map((review) => (
               <ReviewCard key={review.username} {...review} />
             ))}
           </Marquee>
-          <Marquee reverse pauseOnHover className="[--duration:40s] md:[--duration:20s]  ">
+          <Marquee
+            reverse
+            pauseOnHover
+            className="[--duration:40s] md:[--duration:20s]  "
+          >
             {secondRow.map((review) => (
               <ReviewCard key={review.username} {...review} />
             ))}

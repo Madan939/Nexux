@@ -55,7 +55,7 @@ const HeroSection = () => {
                 </section>
               </div>
             </section>
-            <section className="h-full lg:pl-6">
+            <section className="h-full lg:pl-6" id="contact">
               <form className="space-y-3 shadow-[0_4px_10px_5px_rgba(0,0,0,0.06)] p-6 md:p-10 lg:p-8 rounded-xl md:rounded-3xl">
                 <h2 className="font-semibold text-2xl md:text-xl leading-8 md:leading-10 ">
                   {t("form.h1")}
