@@ -92,7 +92,7 @@ const Positions = () => {
     },
   ];
   return (
-    <section className="pb-15">
+    <section className="pb-15" id="roles">
       <Container>
         <div className="space-y-4 md:space-y-10 ">
           <section className="text-center space-y-2">
@@ -155,7 +155,7 @@ const Positions = () => {
                       </div>
                     ))}
                 </section>
-                <p className="flex items-center gap-3 border w-fit px-4 py-1 bg-[#E50914] text-white  rounded-sm">
+                <p className="flex items-center gap-3 border w-fit px-4 py-2 bg-[#E50914] text-white  rounded-sm">
                   <span className="text-sm leading-5 font-semibold">
                     Apply Now
                   </span>

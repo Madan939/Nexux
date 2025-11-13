@@ -10,7 +10,6 @@ type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 };
-
 // Define the namespaces explicitly (strong typing)
 const namespaces = [
   "landing",
@@ -20,7 +19,8 @@ const namespaces = [
   "team",
   "career",
   "contact",
-, "blogs"] as const;
+  "blogs",
+] as const;
 type Namespace = (typeof namespaces)[number];
 
 // Map each namespace to its messages

@@ -38,12 +38,7 @@ const BlogPage: React.FC = () => {
           {article.introduction?.p1 || ""}
         </p>
 
-        <Image
-          src={article.img}
-          alt={article.slug}
-          width={1280}
-          height={400}
-        />
+        <Image src={article.img} alt={article.slug} width={1280} height={400} />
         <p className="text-lg text-[#595959] font-normal leading-6.5">
           {article.introduction?.p2 || ""}
         </p>

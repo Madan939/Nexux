@@ -10,7 +10,7 @@ const FromLab = () => {
       <section className="py-[60px]">
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2">
-            <section className="space-y-3">
+            <section className="space-y-3 md:text-center">
               <ResuableButton>
                 <span className="text-[#E50914]">{t("fromLabs.title")}</span>
               </ResuableButton>
@@ -21,7 +21,7 @@ const FromLab = () => {
                 </span>{" "}
                 {t("fromLabs.heading_1")}{" "}
               </h2>
-              <ul className="space-y-3">
+              <ul className="space-y-3 text-start">
                 {listData.fromLabs.list.map((item,index) => (
                   <li key={index} className="flex items-center gap-5 font-normal leading-6 text-[#737373]">
                     <Image

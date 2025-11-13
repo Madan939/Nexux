@@ -9,7 +9,7 @@ const Services = () => {
     <section className="bg-[linear-gradient(179deg,rgba(252,230,232,0.57)_-222.79%,rgba(255,246,247,0.57)_202.03%)] py-[60px]">
       <Container>
         <div className="space-y-4 md:space-y-10 ">
-          <section className="text-center space-y-2">
+          <section className="md:text-center space-y-2">
             <ResuableButton>
               {t("ourServices.title")}{" "}
               <span className="text-[#E50914]">

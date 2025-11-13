@@ -66,7 +66,7 @@ const Team = () => {
 
   return (
     <>
-      <section className="py-15">
+      <section className="py-15" id="team">
         <Container>
           <div className="space-y-4 md:space-y-10">
             <section className="space-y-3 text-center">

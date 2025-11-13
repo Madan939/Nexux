@@ -2,14 +2,12 @@ import Image from "next/image"
 import Container from "../shared/layout/Container"
 import ResuableButton from "../shared/layout/Button"
 import { useTranslations } from "next-intl"
-import Timeline from "./Timeline"
-
 const OurStory = () => {
     const t = useTranslations("about.ourStory")
   return (
     <section className="bg-[linear-gradient(107deg,rgba(252,230,232,0.57)_-31.49%,rgba(255,246,247,0.57)_96.71%)] rounded-3xl py-8 lg:py-24">
       <Container>
-        <div className="flex flex-col-reverse justify-center text-center lg:text-start lg:flex-row items-center gap-10 lg:gap-30">
+        <div className="flex flex-col-reverse justify-center md:text-center lg:text-start lg:flex-row items-center gap-10 lg:gap-30">
           <Image
             src="/images/about/ourStory.svg"
             width={494}

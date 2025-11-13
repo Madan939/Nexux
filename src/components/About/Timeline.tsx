@@ -1,8 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import Container from "../shared/layout/Container";
 import { useTranslations } from "next-intl";
-import OurJourney from "./OurJourney";
 import journeyData from "../../../messages/en/about.json";
 
 interface TimelineItem {
@@ -63,7 +61,7 @@ const t = useTranslations("about.ourJourney")
   }, []);
 
   return (
-      <div className="py-10 lg:py-20">
+      <>
         <div ref={timelineRef} className="relative">
           {/* Static Center Line */}
           <div className="absolute left-4  lg:left-1/2 transform -translate-x-1/2 w-1 h-full bg-neutral-300 rounded-full overflow-hidden">
@@ -123,7 +121,7 @@ const t = useTranslations("about.ourJourney")
             </div>
           ))}
         </div>
-      </div>
+      </>
   );
 };
 

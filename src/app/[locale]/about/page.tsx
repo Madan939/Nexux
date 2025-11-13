@@ -36,7 +36,7 @@ export default function AboutPage({
         cta_1={t("heroSection.cta_1")}
         cta_1_link="/"
         cta_2={t("heroSection.cta_2")}
-        cta_2_link="/"
+        cta_2_link="/careers"
       />
 
       <MissionVision />

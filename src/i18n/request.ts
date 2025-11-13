@@ -18,7 +18,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "team",
     "career",
     "contact",
-  , "blogs"] as const;
+    "blogs"
+  ] as const;
   const messages: NamespaceMessages = {};
 
   for (const ns of namespaces) {
