@@ -1,13 +1,18 @@
+"use client"
 import { useTranslations } from "next-intl";
 import Container from "../shared/layout/Container";
 import Link from "next/link";
 import Image from "next/image";
 import footerData from "../../../messages/en/common.json";
+import { cn } from "@/src/lib/utils";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const t = useTranslations("common");
+    const pathname = usePathname();
+    const isAdminRoute = pathname?.includes('/admin');
   return (
-    <footer className="text-white">
+    <footer className={cn("text-white block", {"hidden": isAdminRoute})}>
       <section
         className="py-8 md:py-16"
         style={{

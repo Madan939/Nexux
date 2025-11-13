@@ -20,7 +20,7 @@ const namespaces = [
   "team",
   "career",
   "contact",
-] as const;
+, "blogs"] as const;
 type Namespace = (typeof namespaces)[number];
 
 // Map each namespace to its messages

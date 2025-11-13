@@ -43,6 +43,10 @@
   --radius-xl: calc(var(--radius) + 4px);
   --animate-marquee: marquee var(--duration) infinite linear;
   --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  
+
+  --color-text-primary: #1A1A1A;
+
   @keyframes marquee {
     from {
       transform: translateX(0);

@@ -1,5 +1,4 @@
 "use client";
-
 import { useTranslations } from "next-intl";
 import Container from "../shared/layout/Container";
 import headerData from "../../../messages/en/common.json";
@@ -8,10 +7,12 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { cn } from "@/src/lib/utils";
 const Header = () => {
   const [menu, setMenu] = useState(false);
   const t = useTranslations("common");
   const pathname = usePathname();
+  const isAdminRoute = pathname?.includes('/admin');
   const normalizePath = (path: string) => {
     const pathWithoutSlash = path.replace(/\/$/, "");
     const parts = pathWithoutSlash.split("/");
@@ -22,7 +23,9 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white py-1 sticky top-0 z-40 shadow-md">
+    <header className={cn("bg-white py-1 sticky top-0 z-40 shadow-md block", {
+      "hidden": isAdminRoute
+    })}>
       <Container>
         <nav className="flex justify-between py-4 items-center ">
           {/* Logo */}
@@ -125,6 +128,7 @@ const Header = () => {
         </Link>
       </section>
     </header>
+        
   );
 };
 
