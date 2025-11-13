@@ -35,7 +35,7 @@ export const Cta = () => {
               {t("Cta.description")}
             </p>
             <Link
-              href="/"
+              href="/careers"
               className="bg-white text-[#E50914] px-16 py-2 rounded-xl inline-block"
             >
               <section className="flex items-center justify-center gap-2">

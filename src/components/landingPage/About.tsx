@@ -35,7 +35,7 @@ const About = () => {
             </h2>
             <p className="text-sm font-normal">{t("about.description_1")}</p>
             <p className="text-sm font-normal">{t("about.description_2")}</p>
-            <Link href="/">
+            <Link href="/team">
               <PrimaryButton>{t("about.cta_btn")}</PrimaryButton>
             </Link>
           </div>
