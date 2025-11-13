@@ -1,6 +1,5 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
-import { use } from "react";
 import HeroSection from "@/src/components/shared/HeroSection";
 import Benifits from "@/src/components/career/Benifits";
 import Positions from "@/src/components/career/Positions";
@@ -17,14 +16,7 @@ export async function generateMetadata({
   };
 }
 
-export default function Page({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = use(params);
-  setRequestLocale(locale);
-
+export default function Page() {
   const t = useTranslations("career");
 
   return (

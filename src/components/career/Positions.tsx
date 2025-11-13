@@ -18,7 +18,7 @@ const Positions = () => {
         "React & Node.js",
         "Strong problem-solving skills",
       ],
-      href: "",
+      href: "/careers/senior-full-stack-developer",
     },
     {
       tag: "UI/UX Designer",
@@ -32,7 +32,7 @@ const Positions = () => {
         "Portfolio of work",
         "User research skills",
       ],
-      href: "",
+      href: "/careers/mid-level-uiux-designer",
     },
     {
       tag: "Engineering",
@@ -46,7 +46,7 @@ const Positions = () => {
         "CI/CD pipelines",
         "Infrastructure as Code",
       ],
-      href: "",
+      href: "/careers/devops-engineer",
     },
     {
       tag: "Product",
@@ -60,7 +60,7 @@ const Positions = () => {
         "Stakeholder management",
         "Agile methodologies",
       ],
-      href: "",
+      href: "/careers/product-manager",
     },
     {
       tag: "Marketing",
@@ -74,7 +74,7 @@ const Positions = () => {
         "Digital marketing expertise",
         "Analytics-driven",
       ],
-      href: "",
+      href: "/careers/marketing-manager",
     },
     {
       tag: "Engineering",
@@ -85,10 +85,10 @@ const Positions = () => {
       requirements: [
         "3+ years of experience",
         "React/Vue/Angular",
-        "TypeScript",
         "Responsive design",
+        "TypeScript",
       ],
-      href: "",
+      href: "/careers/frontend-developer",
     },
   ];
   return (
@@ -119,9 +119,9 @@ const Positions = () => {
               <Link
                 href={item.href}
                 key={index}
-                className="border border-[#E8E8E8] rounded-2xl p-6 space-y-4 hover:shadow-[0_4px_10px_#FCE6E8] transition duration-500 ease-in-out"
+                className="border border-[#E8E8E8] flex flex-col justify-between rounded-2xl p-6 space-y-4 hover:shadow-[0_4px_10px_#FCE6E8] transition duration-500 ease-in-out"
               >
-                <p className="bg-[#FCE6E891] inline-block text-xs px-4 py-1 rounded-xl text-[#E50914] border-2 border-[#F7B3B6]">
+                <p className="bg-[#FCE6E891] w-fit text-xs px-4 py-1 rounded-xl text-[#E50914] border-2 border-[#F7B3B6]">
                   {item.tag}
                 </p>
                 <section className="space-y-1">
