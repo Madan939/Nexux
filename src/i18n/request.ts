@@ -10,7 +10,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  const namespaces = ["landing", "about","common","services"] as const;
+  const namespaces = ["landing", "about","common","services", "blogs"] as const;
   const messages: NamespaceMessages = {};
 
   for (const ns of namespaces) {

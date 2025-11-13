@@ -5,7 +5,7 @@
     { "href": "/about", "label": "About" },
     { "href": "/team", "label": "Team" },
     { "href": "/careers", "label": "Careers" },
-    { "href": "/blog", "label": "Blog" }
+    { "href": "/blogs", "label": "Blog" }
   ],
   "contact": { "href": "/contact", "label": "Contact Us" },
   "Footer": {

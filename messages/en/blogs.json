@@ -1,0 +1,82 @@
+{
+"metaTitle": {
+    "title": "Blogs | Nexux Labs",
+    "description": "We are a passionate team building web experiences."
+  },
+  "heroSection": {
+    "btnText": "The more you know",
+    "title": "Insights and Ideas",
+    "subtitle": "Explore our latest thoughts on technology, design and innovation"
+  },
+  "featuredArticle": {
+    "title": {
+        "text1": "Featured",
+        "color1": "Article"
+    },
+   
+    "article": {
+        "img": "/images/landingpage/scalable.svg",
+         "date": "October 31, 2025",
+         "title": "MyCase, Buliding a High Level Design System",
+         "description": {
+            "d1": "Creating a high-level design system for MyCase was all about establishing a unified visual language and consistent user experience across the platform. The goal was to move beyond one-off designs and build a scalable system that supports both designers and developers.",
+            "d2": "The process began with defining core foundations — color palettes, typography, spacing, and grid systems — ensuring accessibility and clarity. From there, reusable UI components such as buttons, input fields, modals, and navigation bars were built with flexibility in mind, following a consistent structure and naming convention."
+         },
+         "link": ""
+         
+    },
+    "cta": "Read More"
+  },
+  "blogInsights": {
+    "title":{
+        "text1": "Blog",
+        "color1": "Insights"
+    },
+
+  "articles": [
+    {
+      "img": "/images/articles/business-growth.jpg",
+      "date": "November 13, 2025",
+      "title": "Driving Business Growth Through Scalable UI/UX Design",
+      "description": "In today’s competitive digital marketplace, user experience (UX) and user interface (UI) design are no longer just aesthetic considerations—they are strategic business drivers. Companies that invest in scalable UI/UX design gain a competitive edge by reducing development costs.",
+      "link": "/blogs/driving-business-growth-through-scalable-ui-ux-design"
+    },
+    {
+      "img": "/images/articles/ai-integration.jpg",
+      "date": "September 12, 2025",
+      "title": "Integrating AI into Web Applications: Challenges & Insights",
+      "description": "From intelligent search to personalized recommendations, integrating AI into web applications requires balancing innovation with usability. This article explores practical strategies for deploying AI features that enhance user experiences without overwhelming them.",
+      "link": "/blogs/integrating-ai-into-web-applications-challenges-and-insights"
+    },
+    {
+      "img": "/images/articles/performance-optimization.jpg",
+      "date": "August 8, 2025",
+      "title": "Performance Optimization: Making Web Apps Lightning Fast",
+      "description": "In an era where milliseconds matter, optimizing performance is key. We break down techniques for reducing load times, minimizing render-blocking resources, and using modern frameworks efficiently to ensure a smooth and fast user experience.",
+      "link": "/blogs/performance-optimization-making-web-apps-lightning-fast"
+    },
+    {
+      "img": "/images/articles/ux-strategy.jpg",
+      "date": "July 19, 2025",
+      "title": "Designing for Humans: The Psychology Behind Great UX",
+      "description": "Exceptional user experience is not just about aesthetics—it’s about understanding human behavior. Learn how cognitive psychology, accessibility, and empathy-driven design can create interfaces that truly connect with users.",
+      "link": "/blogs/designing-for-humans-the-psychology-behind-great-ux"
+    },
+    {
+      "img": "/images/articles/startup-digital.jpg",
+      "date": "June 3, 2025",
+      "title": "How Startups Can Accelerate Growth Through Digital Transformation",
+      "description": "Digital transformation is no longer optional—it’s essential. This article explores how early-stage startups can adopt the right technologies, workflows, and data-driven strategies to scale efficiently and stay competitive.",
+      "link": "/blogs/how-startups-can-accelerate-growth-through-digital-transformation"
+    },
+    {
+      "img": "/images/articles/future-webdev.jpg",
+      "date": "May 15, 2025",
+      "title": "The Future of Web Development: Trends to Watch in 2026",
+      "description": "As the web evolves, emerging technologies like WebAssembly, edge computing, and AI-driven development are reshaping the landscape. Here’s what developers and businesses should prepare for in the next wave of web innovation.",
+      "link": "/blogs/the-future-of-web-development-trends-to-watch-in-2026"
+    }
+  ]
+}
+
+}
