@@ -1,8 +1,14 @@
-import React from 'react'
+import BlogHero from "@/src/components/Blogs/BlogHero"
+import BlogInsight from "@/src/components/Blogs/BlogInsight"
+import FeaturedArticle from "@/src/components/Blogs/FeaturedArticle"
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+    <BlogHero />
+    <FeaturedArticle />
+    <BlogInsight />
+    </>
   )
 }
 

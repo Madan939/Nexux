@@ -5,14 +5,22 @@ import { routing } from "../../i18n/routing";
 import React from "react";
 import Header from "@/src/components/layout/Header";
 import Footer from "@/src/components/layout/Footer";
-import '../globals.css';
+import "../globals.css";
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 };
-
 // Define the namespaces explicitly (strong typing)
-const namespaces = ["landing", "about","common","services"] as const;
+const namespaces = [
+  "landing",
+  "about",
+  "common",
+  "services",
+  "team",
+  "career",
+  "contact",
+  "blogs",
+] as const;
 type Namespace = (typeof namespaces)[number];
 
 // Map each namespace to its messages
@@ -41,7 +49,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header/>
+          <Header />
           {children}
           <Footer />
         </NextIntlClientProvider>

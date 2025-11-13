@@ -1,9 +1,37 @@
-import React from 'react'
+import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
+import HeroSection from "@/src/components/shared/HeroSection";
+import Benifits from "@/src/components/career/Benifits";
+import Positions from "@/src/components/career/Positions";
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "career" });
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
+  return {
+    title: t("metaTitle.title"),
+  };
 }
 
-export default page
+export default function Page() {
+  const t = useTranslations("career");
+
+  return (
+    <>
+      <HeroSection
+        btnText={t("heroSection.btnText")}
+        title={t("heroSection.title")}
+        subtitle={t("heroSection.subtitle")}
+        cta_1={t("heroSection.cta_1")}
+        cta_1_link="/careers/#roles"
+        cta_2={t("heroSection.cta_2")}
+        cta_2_link="/contact-us/#contact"
+      />
+      <Benifits />
+      <Positions />
+    </>
+  );
+}

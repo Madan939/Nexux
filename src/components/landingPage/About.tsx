@@ -21,7 +21,7 @@ const About = () => {
               priority
             />
           </div>
-          <div className="space-y-2 md:space-y-4 w-full md:w-1/2">
+          <div className="space-y-2 md:space-y-4 w-full md:w-1/2 md:text-center">
             <ResuableButton>
               {t("about.btn1")}{" "}
               <span className="text-[#E50914]">{t("about.colorbtn")}</span>{" "}
@@ -33,9 +33,9 @@ const About = () => {
               {t("about.title1")}{" "}
               <span className="text-[#E50914]">{t("about.colortitle1")}</span>
             </h2>
-            <p className="text-sm font-normal">{t("about.description_1")}</p>
-            <p className="text-sm font-normal">{t("about.description_2")}</p>
-            <Link href="/">
+            <p className="text-sm font-normal ">{t("about.description_1")}</p>
+            <p className="text-sm font-normal ">{t("about.description_2")}</p>
+            <Link href="/team/#team">
               <PrimaryButton>{t("about.cta_btn")}</PrimaryButton>
             </Link>
           </div>

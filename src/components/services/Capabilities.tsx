@@ -1,13 +1,12 @@
 import { useTranslations } from "next-intl";
 import ResuableButton from "../shared/layout/Button";
 import Container from "../shared/layout/Container";
-import Image from "next/image";
-import { Check } from "lucide-react";
+import { Check, CloudIcon, Database, FigmaIcon, LockKeyholeIcon, SmartphoneIcon, Tv2Icon } from "lucide-react";
 const Capabilities = () => {
   const t = useTranslations("services");
   const data = [
     {
-      img: "/images/services/capabilities/web.svg",
+      img: "tv",
       title: "Web Design & Development",
       des: "Crafting stunning, high-performance websites that captive audiences and drive conversions. We blend creative design with cutting edge technology.",
       list: [
@@ -19,7 +18,7 @@ const Capabilities = () => {
       bg: "border border-[#FCE6E8] bg-[linear-gradient(304deg,#F4D0CA_-18.02%,#FBF0E9_99.28%)]",
     },
     {
-      img: "/images/services/capabilities/cloud.svg",
+      img: "cloud",
       title: "Cloud & Data Solutions",
       des: "Scalable cloud infrastructure and data analytics platforms that power your business intelligence and growth.",
       list: [
@@ -31,7 +30,7 @@ const Capabilities = () => {
       bg: "border border-[#FCE6E8] bg-[linear-gradient(323deg,#F4D0CA_-33.01%,#FBF0E9_56.15%)]",
     },
     {
-      img: "/images/services/capabilities/product.svg",
+      img: "figma",
       title: "Product Design & UX",
       des: "We design human-centered experiences that look good and work even better.",
       list: [
@@ -43,7 +42,7 @@ const Capabilities = () => {
       bg: "border border-[#FCE6E8] bg-[linear-gradient(126deg,#F4D0CA_0.77%,#FBF0E9_80.6%)]",
     },
     {
-      img: "/images/services/capabilities/database.svg",
+      img: "database",
       title: "Database Management",
       des: "Delivering robust database solutions for data integrity, performance, and secure business scalability across all platforms.",
       list: [
@@ -55,7 +54,7 @@ const Capabilities = () => {
       bg: "border border-[#FCE6E8] bg-[linear-gradient(126deg,#F4D0CA_0.77%,#FBF0E9_80.6%)]",
     },
     {
-      img: "/images/services/capabilities/mobile.svg",
+      img: "mobile",
       title: "Mobile App Development",
       des: "Designing native and cross-platform mobile applications that users love — combining performance, usability, and style.",
       list: [
@@ -67,7 +66,7 @@ const Capabilities = () => {
       bg: "border border-[#FCE6E8] bg-[linear-gradient(304deg,#F4D0CA_-18.02%,#FBF0E9_99.28%)]",
     },
     {
-      img: "/images/services/capabilities/security.svg",
+      img: "security",
       title: "Security & Compliance",
       des: "Protecting your digital assets with industry-leading security practices, compliance expertise, and proactive risk management.",
       list: [
@@ -81,10 +80,12 @@ const Capabilities = () => {
   ];
   return (
     <>
-      <section className="bg-[linear-gradient(179deg,rgba(252,230,232,0.20)_-222.79%,rgba(255,246,247,0.20)_202.03%)] w-full h-full py-[60px]">
+      <section
+      id="services"
+      className="bg-[linear-gradient(179deg,rgba(252,230,232,0.20)_-222.79%,rgba(255,246,247,0.20)_202.03%)] w-full h-full py-[60px]">
         <Container>
           <div className="space-y-4 md:space-y-10 ">
-            <section className="text-center space-y-2">
+            <section className="md:text-center space-y-2">
               <ResuableButton>
                 <span className="text-[#E50914]">
                   {t("capabilities.title")}
@@ -107,13 +108,9 @@ const Capabilities = () => {
                   className={`${item.bg} rounded-2xl p-6 md:p-8 flex flex-col justify-between space-y-2`}
                 >
                   <div className="space-y-2">
-                    <Image
-                      src={item.img}
-                      alt={item.title}
-                      height={44}
-                      width={44}
-                      priority
-                    />
+                    <div className="p-2.5 bg-[#E50914] w-fit rounded-full text-white">
+                      {renderIcons(item.img)}
+                    </div>
                     <p className="text-[#1E293B] font-semibold text-lg leading-6">{item.title}</p>
                     <p className="text-[#595959] font-normal leading-6">{item.des}</p>
                   </div>
@@ -137,3 +134,24 @@ const Capabilities = () => {
 };
 
 export default Capabilities;
+
+
+function renderIcons(icon: string) {
+  switch(icon){
+    case "tv":
+      return <Tv2Icon size={24}/>
+    case "cloud":
+      return <CloudIcon size={24} />
+    case "figma":
+      return <FigmaIcon size={24} />
+    case "database":
+      return <Database size={24} />
+    case "mobile":
+     return <SmartphoneIcon size={24} />
+    case "security":
+     return <LockKeyholeIcon size={24} />
+    default:
+      return null
+
+  }
+}

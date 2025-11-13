@@ -11,7 +11,7 @@ const FromLab = () => {
   return (
     <>
       <Container>
-        <div className="space-y-4 md:space-y-10 text-center py-[60px]">
+        <div className="space-y-4 md:space-y-10 md:text-center py-[60px]">
           <section className="space-y-3">
             <ResuableButton>
               {t("fromLab.btn_text")}{" "}
@@ -59,7 +59,7 @@ const FromLab = () => {
               </Link>
             ))}
           </section>
-          <Link href="/blogs">
+          <Link href="/blogs/#blog">
           <PrimaryButton>
             {t('fromLab.seeAllText')}
           </PrimaryButton>
