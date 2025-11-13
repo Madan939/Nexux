@@ -1,0 +1,71 @@
+{
+  "metaTitle": {
+    "title": "Contact Us | Nexux Labs",
+    "description": "We are a passionate team building web experiences."
+  },
+  "herosection": {
+    "h1": "Contact Us",
+    "p1": "Email, call, or complete the form to learn how",
+    "p2": "Nexus Labs can solve your problem.",
+    "dh1": "Customer Support",
+    "dp1": "Our support team is available around the clock to address any concerns or queries you may have.",
+    "dh2": "Feedback and Suggestions",
+    "dp2": "We value your feedback and are continuously working to improve our services. Your input is crucial in shaping the future of Nexus Labs.",
+    "form": {
+      "h1": "Get In Touch",
+      "p": "You can reach us anytime.",
+      "f1": "Full Name",
+      "f2": "Email",
+      "f3": "Phone ",
+      "f4": "Message",
+      "cta": "Send Message"
+    }
+  },
+  "faq": {
+    "h": "Frequently",
+    "ch": "Asked",
+    "h1": "Questions",
+    "data": [
+      {
+        "question": "What services does Nexux Labs offer?",
+        "answer": "Nexux Labs specializes in a wide range of IT services including web development, mobile app development, UI/UX design, digital transformation solutions, and custom software development tailored to meet business needs."
+      },
+      {
+        "question": "Can I view Nexux Labs’ previous work?",
+        "answer": "Yes, our website features a portfolio section showcasing completed projects across various industries. You can explore case studies, client success stories, and examples of web and mobile applications we have delivered."
+      },
+      {
+        "question": "Does Nexux Labs hire employees from all IT fields?",
+        "answer": "Absolutely. We hire talented professionals across all IT domains, including front-end and back-end development, mobile development, DevOps, QA testing, UI/UX design, data analytics, and more."
+      },
+      {
+        "question": "How can I apply for a job at Nexux Labs?",
+        "answer": "You can apply through our Careers page by submitting your resume and portfolio. We review applications regularly and reach out to qualified candidates for interviews and further assessment."
+      },
+      {
+        "question": "Does Nexux Labs offer internship opportunities?",
+        "answer": "Yes, we provide internships for students and fresh graduates in various IT fields. Interns gain hands-on experience, mentorship, and exposure to real-world projects that help build their professional skills."
+      },
+      {
+        "question": "Can I collaborate with Nexux Labs on a project?",
+        "answer": "Absolutely. We work with businesses, startups, and individuals to deliver custom IT solutions. You can submit your project proposal through our Contact or Projects page, and our team will get in touch to discuss feasibility and timelines."
+      },
+      {
+        "question": "How does Nexux Labs ensure the quality of its projects?",
+        "answer": "Quality is at the core of our workflow. We follow industry best practices, conduct thorough testing, and maintain clear communication with clients at every stage to ensure high-quality, reliable, and scalable solutions."
+      },
+      {
+        "question": "Does Nexux Labs provide post-launch support?",
+        "answer": "Yes, we offer ongoing maintenance and support for all delivered projects. Our support services include bug fixes, updates, performance optimization, and guidance to ensure your software runs smoothly after launch."
+      },
+      {
+        "question": "Can Nexux Labs help with digital transformation?",
+        "answer": "Yes, we assist businesses in adopting modern technologies, optimizing workflows, and integrating automation tools. Our digital transformation solutions are designed to improve efficiency, reduce costs, and enable scalable growth."
+      },
+      {
+        "question": "How can I contact Nexux Labs for inquiries?",
+        "answer": "You can reach us through the Contact page on our website, where you can submit a message, email us directly, or connect via our social media channels. Our team typically responds within 24–48 hours."
+      }
+    ]
+  }
+}

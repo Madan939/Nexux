@@ -7,7 +7,7 @@
     { "href": "/careers", "label": "Careers" },
     { "href": "/blogs", "label": "Blogs" }
   ],
-  "contact": { "href": "/contact", "label": "Contact Us" },
+  "contact": { "href": "/contact-us", "label": "Contact Us" },
   "Footer": {
     "first": "Ready to Elevate Your Brand?",
     "second": "Let’s collaborate to create something extraordinary. Get in touch with your team",
