@@ -6,6 +6,7 @@ import React from "react";
 import Header from "@/src/components/layout/Header";
 import Footer from "@/src/components/layout/Footer";
 import "../globals.css";
+import LenisScrollBehavior from "@/src/components/shared/LenisScrollBehavior";
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -49,9 +50,11 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          {children}
-          <Footer />
+          <LenisScrollBehavior>
+            <Header />
+            {children}
+            <Footer />
+          </LenisScrollBehavior>
         </NextIntlClientProvider>
       </body>
     </html>
