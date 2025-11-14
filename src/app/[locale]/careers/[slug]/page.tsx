@@ -1,21 +1,21 @@
-"use client";
-import { Details } from "@/src/components/career/slug/Details";
-import HeroSection from "@/src/components/career/slug/HeroSection";
+import Jobs from "@/src/components/career/slug/Jobs";
 import { jobsData } from "@/src/components/data/jobs";
-import Container from "@/src/components/shared/layout/Container";
-import { useParams } from "next/navigation";
-
-const Page = () => {
-  const params = useParams();
-  console.log(params.slug);
-  const data = jobsData.filter((x) => x.slug == params.slug);
-  console.log(data);
-  return <>{data && data.map((item, index) => <div key={index}>
-     <HeroSection title={item.title} location={item.location} time={item.time} work={item.work}/>
-     <Container>
-        <Details title={item.title} about={item.about} responsibilites={item.responsibilities} requirements={item.requirements}/>
-     </Container>
-  </div>)}</>;
+interface SlugProps {
+  params: Promise<{ slug: string }>;
+}
+export async function generateMetadata({ params }: SlugProps) {
+  const { slug } = await params;
+  const jobs = jobsData.find((a) => a.slug === slug);
+  return {
+    title: `${jobs?.title} | Nexux Labs`,
+  };
+}
+const page = () => {
+  return (
+    <>
+      <Jobs />
+    </>
+  );
 };
 
-export default Page;
+export default page;

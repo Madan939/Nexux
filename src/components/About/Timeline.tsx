@@ -90,8 +90,6 @@ const t = useTranslations("about.ourJourney")
                   }`}
                 />
               </div>
-
-
               {/* Content Card */}
               <div className="w-[90%] mx-auto lg:w-full lg:max-w-full">
               <div
@@ -112,7 +110,7 @@ const t = useTranslations("about.ourJourney")
                   <h3 className="text-sm lg:text-base font-medium mb-2 lg:mb-0.5 leading-6">
                     {t(`journeyData.${index}.title`)}
                   </h3>
-                  <p className="text-[#595959] font-normal text-sm  leading-5 ">
+                  <p className="text-[#595959] font-normal text-sm  leading-5 text-justify">
                      {t(`journeyData.${index}.brief`)}
                   </p>
                 </div>

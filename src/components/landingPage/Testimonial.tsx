@@ -64,7 +64,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        "relative h-full w-[327px] md:w-98 cursor-pointer bg-white overflow-hidden rounded-3xl p-4 md:p-6 mx-1 "
+        "relative h-full w-[327px] md:w-98 bg-white overflow-hidden rounded-3xl p-4 md:p-6 mx-1 "
       )}
     >
       <div className="flex flex-row items-center justify-between gap-2">
@@ -100,7 +100,7 @@ export function Testimonials() {
     <>
       <section className="bg-[linear-gradient(179deg,rgba(252,230,232,0.57)_-222.79%,rgba(255,246,247,0.57)_202.03%)] py-[60px] space-y-4 md:space-y-10">
         <Container>
-          <div className="md:text-center space-y-3">
+          <div className="text-center space-y-3">
             <ResuableButton>
               <span className="text-[#E50914]">{t("testimonial.title")}</span>
             </ResuableButton>

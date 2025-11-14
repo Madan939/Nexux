@@ -24,7 +24,7 @@ export const Cta = () => {
           }}
         ></div>
         <Container>
-          <div className="md:text-center text-white relative z-5 py-8 md:py-14 space-y-2 md:space-y-4">
+          <div className="text-center text-white relative z-5 py-8 md:py-14 space-y-2 md:space-y-4">
             <p className="bg-[#FCE6E8] px-8 py-1.5 text-sm rounded-2xl font-medium inline-block text-[#E50914]">
               {t("Cta.btn_text")}
             </p>
@@ -36,13 +36,18 @@ export const Cta = () => {
             </p>
             <Link
               href="/careers/#roles"
-              className="bg-white text-[#E50914] px-16 py-2 rounded-xl inline-block"
+              className="bg-white hover:bg-gray-100 transition duration-500 ease-in-out text-[#E50914] px-16 py-3 rounded-xl inline-block"
             >
               <section className="flex items-center justify-center gap-2">
-                <span>
-                  <ArrowRight size={16} className="border-[1.5px] font-semibold rounded-full border-[#E50914] " />
+                <span className="font-semibold leading-5">
+                  {t("Cta.cta_text")}
                 </span>
-                <span className="font-semibold leading-5">{t("Cta.cta_text")}</span>
+                <span>
+                  <ArrowRight
+                    size={16}
+                    className="border-[1.5px] font-semibold rounded-full border-[#E50914] "
+                  />
+                </span>
               </section>
             </Link>
           </div>

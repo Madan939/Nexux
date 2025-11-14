@@ -8,6 +8,7 @@ const Capabilities = () => {
     {
       img: "tv",
       title: "Web Design & Development",
+      id:"web-development",
       des: "Crafting stunning, high-performance websites that captive audiences and drive conversions. We blend creative design with cutting edge technology.",
       list: [
         "Responsive Design",
@@ -18,8 +19,10 @@ const Capabilities = () => {
       bg: "border border-[#FCE6E8] bg-[linear-gradient(304deg,#F4D0CA_-18.02%,#FBF0E9_99.28%)]",
     },
     {
+
       img: "cloud",
       title: "Cloud & Data Solutions",
+      id:"cloud-solutions",
       des: "Scalable cloud infrastructure and data analytics platforms that power your business intelligence and growth.",
       list: [
         "Cloud Architecture",
@@ -32,6 +35,7 @@ const Capabilities = () => {
     {
       img: "figma",
       title: "Product Design & UX",
+      id:"product-design",
       des: "We design human-centered experiences that look good and work even better.",
       list: [
         "Research-based UX strategy",
@@ -44,6 +48,7 @@ const Capabilities = () => {
     {
       img: "database",
       title: "Database Management",
+      id:"database-management",
       des: "Delivering robust database solutions for data integrity, performance, and secure business scalability across all platforms.",
       list: [
         "Database design and optimization",
@@ -56,6 +61,7 @@ const Capabilities = () => {
     {
       img: "mobile",
       title: "Mobile App Development",
+      id:"mobile-app-development",
       des: "Designing native and cross-platform mobile applications that users love — combining performance, usability, and style.",
       list: [
         "iOS and Android development",
@@ -68,6 +74,7 @@ const Capabilities = () => {
     {
       img: "security",
       title: "Security & Compliance",
+      id:"security-and-compliance",
       des: "Protecting your digital assets with industry-leading security practices, compliance expertise, and proactive risk management.",
       list: [
         "Security audits and assessments",
@@ -85,7 +92,7 @@ const Capabilities = () => {
       className="bg-[linear-gradient(179deg,rgba(252,230,232,0.20)_-222.79%,rgba(255,246,247,0.20)_202.03%)] w-full h-full py-[60px]">
         <Container>
           <div className="space-y-4 md:space-y-10 ">
-            <section className="md:text-center space-y-2">
+            <section className="text-center space-y-2">
               <ResuableButton>
                 <span className="text-[#E50914]">
                   {t("capabilities.title")}
@@ -104,6 +111,7 @@ const Capabilities = () => {
             <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
               {data.map((item, index) => (
                 <div
+                id={item.id}
                   key={index}
                   className={`${item.bg} rounded-2xl p-6 md:p-8 flex flex-col justify-between space-y-2`}
                 >
