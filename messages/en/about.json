@@ -1,8 +1,4 @@
 {
-  "metaTitle": {
-    "title": "About Us | Nexux Labs",
-    "description": "We are a passionate team building web experiences."
-  },
   "heroSection": {
     "btnText": "Our Story",
     "title": "Beyond Technology - Empowering Growth with Nexux Lab",
@@ -24,11 +20,10 @@
       "color2": "Vision"
     },
     "description": "Our foundation is built on core values that guide everything we do.",
-    "cardTitle1" : "Our Mission",
+    "cardTitle1": "Our Mission",
     "cardDescription1": "To empower businesses through innovative technology solutions that drive growth, efficiency,and customer satisfaction. We bridge the gap between vision and execution, turning ideas into impactful digital experiences.",
     "cardTitle2": "Our Vision",
     "cardDescription2": "To be the world's most trusted partner in digital transformation, known for our innovation, integrity, and commitment to excellence. We envision a future where technology seamlessly enhances every aspect of business and life."
-
   },
   "ourStory": {
     "btnText": {
@@ -63,31 +58,31 @@
       {
         "year": "2017",
         "title": "Founded",
-        "brief": "Nexux Labs was founded by a team of passionate technologists in San Francisco.",
+        "brief": "Nexux Labs was founded by a team of passionate technologists in San Francisco, dedicated to creating innovative digital solutions, building modern web experiences, and empowering businesses to grow and succeed globally.",
         "side": "left"
       },
       {
         "year": "2019",
         "title": "Global Expansion",
-        "brief": "Opened offices in New York and London, serving clients across three continents.",
+        "brief": "Nexux Labs has opened offices in New York and London, expanding its global presence and serving clients across three continents, delivering innovative digital solutions and exceptional web experiences to businesses worldwide.",
         "side": "right"
       },
       {
         "year": "2021",
         "title": "50+ Projects",
-        "brief": "Reached milestone of 50 successful projects and 5-star client satisfaction.",
+        "brief": "Nexux Labs has reached the milestone of completing 50 successful projects while consistently achieving 5-star client satisfaction, reflecting our commitment to excellence, innovation, and delivering outstanding digital solutions worldwide.",
         "side": "left"
       },
       {
         "year": "2023",
         "title": "Industry Recognition",
-        "brief": "Awarded “Best Digital Innovation Agency” by Tech Awards International.",
+        "brief": "Nexux Labs was proudly awarded the title of 'Best Digital Innovation Agency' by Tech Awards International, recognizing our dedication to cutting-edge technology, creative solutions, and delivering exceptional results for clients globally.",
         "side": "right"
       },
       {
         "year": "2025",
         "title": "Today",
-        "brief": "Leading digital transformation for businesses worldwide with a team of 40+ experts.",
+        "brief": "Nexux Labs is leading digital transformation for businesses worldwide, leveraging a team of 40+ experts who are dedicated to delivering innovative solutions, modern web experiences, and exceptional results for clients globally.",
         "side": "left"
       }
     ]

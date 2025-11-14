@@ -19,14 +19,14 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
 }) => {
   return (
     <Link href={link}>
-      <div className="max-w-[409px] w-full flex flex-col border rounded-2xl border-[#E8E8E8] cursor-pointer overflow-hidden hover:shadow-[0_4px_10px_#FCE6E8] transition duration-500 ease-in-out">
+      <div className=" w-full flex flex-col border rounded-2xl border-[#E8E8E8] cursor-pointer overflow-hidden hover:shadow-[0_4px_10px_#FCE6E8] transition duration-500 ease-in-out">
         <div className="w-full">
           <Image
             src={img}
             alt="ai-integration"
             width={409}
             height={0}
-            className="h-[200px] object-cover rounded-t-2xl"
+            className="h-[250px] md:h-[200px] w-full object-cover rounded-t-2xl"
           />
         </div>
         <div className="p-6 flex flex-col gap-2 justify-between h-full">

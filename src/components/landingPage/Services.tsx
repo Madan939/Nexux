@@ -9,7 +9,7 @@ const Services = () => {
     <section className="bg-[linear-gradient(179deg,rgba(252,230,232,0.57)_-222.79%,rgba(255,246,247,0.57)_202.03%)] py-[60px]">
       <Container>
         <div className="space-y-4 md:space-y-10 ">
-          <section className="md:text-center space-y-2">
+          <section className="text-center space-y-2">
             <ResuableButton>
               {t("ourServices.title")}{" "}
               <span className="text-[#E50914]">
@@ -31,7 +31,7 @@ const Services = () => {
               {t("ourServices.semi_subtitle")}
             </p>
           </section>
-          <section className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+          <section className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {servicesData.ourServices.services.map((service, index) => (
               <div
                 key={index}

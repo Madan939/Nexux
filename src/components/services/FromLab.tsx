@@ -10,7 +10,7 @@ const FromLab = () => {
       <section className="py-[60px]">
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2">
-            <section className="space-y-3 md:text-center">
+            <section className="space-y-3 max-lg:text-center">
               <ResuableButton>
                 <span className="text-[#E50914]">{t("fromLabs.title")}</span>
               </ResuableButton>

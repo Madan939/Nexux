@@ -133,7 +133,9 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
 }
-
+body{
+  color:#1a1a1a;
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -205,4 +207,7 @@
     transform: translate(100%, 0%);
     opacity: 0;
   }
+}
+.floating-whatsapp-button {
+  @apply rounded-full shadow-2xl;
 }

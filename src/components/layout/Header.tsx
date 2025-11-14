@@ -62,7 +62,7 @@ const Header = () => {
           {/* Contact Button */}
           <Link
             href={t("contact.href")}
-            className="hidden xl:block bg-[#E50914] text-white px-7 py-3 rounded-3xl leading-4 font-semibold"
+            className="hidden xl:block bg-[#E50914] hover:bg-[#FF0F1E] transition duration-500 ease-in-out text-white px-7 py-3 rounded-3xl leading-4 font-semibold"
           >
             {t(`contact.label`)}
           </Link>

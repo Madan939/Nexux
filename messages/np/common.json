@@ -7,7 +7,7 @@
     { "href": "/careers", "label": "करियर" },
     { "href": "/blog", "label": "ब्लग" }
   ],
-  "contact": { "href": "/contact", "label": "सम्पर्क गर्नुहोस्" },
+  "contact": { "href": "/contact-us", "label": "सम्पर्क गर्नुहोस्" },
   "Footer": {
     "first": "तपाईंको ब्रान्डलाई नयाँ उचाइमा पुर्‍याउन तयार हुनुहुन्छ?",
     "second": "हामीसँग सहकार्य गरेर केही अद्वितीय सिर्जना गरौं। हाम्रो टिमसँग सम्पर्क गर्नुहोस्।",
@@ -18,14 +18,14 @@
       { "href": "/about", "label": "हाम्रो बारेमा" },
       { "href": "/team", "label": "टिम" },
       { "href": "/career", "label": "करियर" },
-      { "href": "/privacy-policy", "label": "गोपनीयता नीति" }
+      { "href": "/contact-us", "label": "सम्पर्क गर्नुहोस्" }
     ],
     "Services": "सेवाहरू",
     "services": [
       { "href": "/", "label": "वेब विकास" },
       { "href": "/", "label": "उत्पादन डिजाइन" },
       { "href": "/", "label": "क्लाउड समाधान" },
-      { "href": "/", "label": "ब्लग" }
+      { "href": "/blogs", "label": "ब्लग" }
     ],
     "connect": "जोडिनुहोस्",
     "rights": " सबै अधिकार सुरक्षित।"

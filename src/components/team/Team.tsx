@@ -89,7 +89,7 @@ const Team = () => {
                   key={index}
                   className="border-[0.756px] border-[rgba(0,0,0,0.10)] rounded-xl p-6 grid grid-cols-1 xl:grid-cols-3 gap-4"
                 >
-                  <div className="xl:col-span-1 relative w-full h-[170px] xl:h-[190px] rounded-xl overflow-hidden">
+                  <div className="xl:col-span-1 relative w-full h-[250px] xl:h-[200px] rounded-xl overflow-hidden">
                     <Image
                       src={item.img}
                       alt={item.name}

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useTranslations } from "next-intl";
 import Container from "../shared/layout/Container";
 import Link from "next/link";
@@ -9,10 +9,10 @@ import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const t = useTranslations("common");
-    const pathname = usePathname();
-    const isAdminRoute = pathname?.includes('/admin');
+  const pathname = usePathname();
+  const isAdminRoute = pathname?.includes("/admin");
   return (
-    <footer className={cn("text-white block", {"hidden": isAdminRoute})}>
+    <footer className={cn("text-white block", { hidden: isAdminRoute })}>
       <section
         className="py-8 md:py-16"
         style={{
@@ -31,7 +31,7 @@ const Footer = () => {
             </p>
             <Link
               href="/contact-us/#contact"
-              className="text-[#E50914] text-xs mt-4 md:px-10 px-3 md:py-4 py-2 md:text-lg leading-5 font-semibold inline-block bg-white rounded-3xl"
+              className="text-[#E50914]  mt-4 md:px-10 px-6 md:py-4 py-3 md:text-lg leading-5 font-semibold inline-block bg-white rounded-3xl hover:bg-gray-100 transition duration-500 ease-in-out"
             >
               {t("Footer.button")}
             </Link>

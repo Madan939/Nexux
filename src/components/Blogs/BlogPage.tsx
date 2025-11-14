@@ -10,7 +10,6 @@ const BlogPage: React.FC = () => {
   const { id } = params;
   const article = articleData.find((a) => a.slug === id);
   if (!article) return notFound();
-  console.log(article);
   return (
     <>
       {/* BreadCrumb */}
@@ -52,10 +51,10 @@ const BlogPage: React.FC = () => {
           {article.sections.map((sec, i) => (
             <section className="flex flex-col" key={i}>
               <h3 className="text-2xl font-medium mb-2">{sec.heading}</h3>
-              {sec.content && <p>{sec.content}</p>}
+              {sec.content && <p className="text-[#595959] ">{sec.content}</p>}
 
               {sec.phases && (
-                <ul className="list-disc ml-6">
+                <ul className="list-disc ml-6 text-[#595959] ">
                   {sec.phases.map((p, j) => (
                     <li key={j}>
                       <strong>{p.phase}:</strong> {p.details}
@@ -67,7 +66,7 @@ const BlogPage: React.FC = () => {
               {sec.results && (
                 <>
                   <h3 className="text-2xl font-medium mb-2 mt-4">Results</h3>
-                  <ul className="list-disc ml-6 mt-2">
+                  <ul className="list-disc ml-6 mt-2 text-[#595959] ">
                     {sec.results.map((r, j) => (
                       <li key={j}>{r}</li>
                     ))}
@@ -78,7 +77,7 @@ const BlogPage: React.FC = () => {
           ))}
 
           <h3 className="text-2xl font-medium mb-2 mt-4">Conclusion</h3>
-          <p>{article.conclusion}</p>
+          <p className="text-[#595959] ">{article.conclusion}</p>
         </div>
       </div>
     </>

@@ -1,12 +1,8 @@
 {
-  "metaTitle": {
-    "title": "Our Team | Nexux Labs",
-    "description": "We are a passionate team building web experiences."
-  },
   "heroSection": {
     "btnText": "Our Story",
     "title": "Meet the talented and hard working team who makes all this happen",
-    "subtitle": "Our philosophy is very simple; hire great people and give them the resources and support to do their best work.",
+    "subtitle": "Our philosophy is very simple; hire great people, provide them with the best resources, tools, and guidance, offer continuous support, and empower them to do their absolute best work every day.",
     "cta_1": "Get to Know Us",
     "cta_2": "Let’s Connect"
   },
