@@ -46,7 +46,7 @@ const Header = () => {
               const isActive = normalizePath(pathname) === item.href;
               return (
                 <div key={index} className="relative group">
-                  <Link href={item.href} className="font-medium leading-5">
+                  <Link href={item.href} className={`font-medium leading-5 hover:text-[#E50914] ${ isActive&&"text-[#E50914]"}`}>
                     {t(`header.${index}.${"label"}`)}
                   </Link>
                   <span
