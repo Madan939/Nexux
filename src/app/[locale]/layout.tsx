@@ -6,6 +6,7 @@ import React from "react";
 import Header from "@/src/components/layout/Header";
 import Footer from "@/src/components/layout/Footer";
 import "../globals.css";
+import { Toaster } from "sonner";
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -52,6 +53,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Header />
           {children}
           <Footer />
+          <Toaster richColors position="top-right" />
         </NextIntlClientProvider>
       </body>
     </html>
