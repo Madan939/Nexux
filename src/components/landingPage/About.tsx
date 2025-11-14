@@ -21,7 +21,7 @@ const About = () => {
               priority
             />
           </div>
-          <div className="space-y-2 md:space-y-4 w-full md:w-1/2 md:text-center">
+          <div className="space-y-2 md:space-y-4 w-full md:w-1/2">
             <ResuableButton>
               {t("about.btn1")}{" "}
               <span className="text-[#E50914]">{t("about.colorbtn")}</span>{" "}
