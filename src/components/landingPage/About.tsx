@@ -29,7 +29,7 @@ const About = () => {
             <h2 className="font-semibold text-2xl md:text-3xl leading-8 md:leading-10 ">
               {" "}
               {t("about.title")}{" "}
-              <span className="text-[#E50914]">{t("about.colortitle")}</span>{" "}
+              <span className="text-[#E50914]">{t("about.colortitle")}</span>
               {t("about.title1")}{" "}
               <span className="text-[#E50914]">{t("about.colortitle1")}</span>
             </h2>

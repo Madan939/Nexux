@@ -10,7 +10,7 @@ export default function LenisScrollBehavior({
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
-      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      easing: (t: number) => Math.min(2, 1.001 - Math.pow(2, -10 * t)),
     });
     function raf(time: number) {
       lenis.raf(time);
