@@ -85,10 +85,10 @@ const HeroSection = ({
                 <p className="font-normal leading-6 ">{subtitle}</p>
               </div>
               <div className="flex flex-wrap justify-between md:justify-center md:gap-6 items-center w-full">
-                <Link href={cta_1_link}>
+                <Link href={cta_1_link} className="max-md:w-[49%]">
                   <StarBorder
                     as="button"
-                    className="custom-class leading-6 hover:cursor-pointer text-[15px] md:text-base "
+                    className="custom-class leading-6 hover:cursor-pointer text-[15px] md:text-base w-full"
                     color="#E50914"
                     speed="3s"
                   >
@@ -97,7 +97,7 @@ const HeroSection = ({
                 </Link>
                 <Link
                   href={cta_2_link}
-                  className="flex items-center justify-center bg-transparent border text-[15px] font-semibold leading-6 rounded-md w-[156px] md:w-[200px] h-10 md:h-12 hover:bg-white hover:text-[#E50914] transition duration-500 ease-in-out "
+                  className="flex items-center justify-center bg-transparent border text-[15px] font-semibold leading-6 rounded-md w-[49%] md:w-[200px] h-10 md:h-12 hover:bg-white hover:text-[#E50914] transition duration-500 ease-in-out "
                 >
                   {cta_2}
                 </Link>

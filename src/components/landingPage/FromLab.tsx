@@ -11,7 +11,7 @@ const FromLab = () => {
   return (
     <>
       <Container>
-        <div className="space-y-4 md:space-y-10 md:text-center py-[60px]">
+        <div className="space-y-4 md:space-y-10 text-center py-[60px]">
           <section className="space-y-3">
             <ResuableButton>
               {t("fromLab.btn_text")}{" "}
@@ -35,7 +35,7 @@ const FromLab = () => {
               {t("fromLab.description")}
             </p>
           </section>
-          <section className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <section className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {blogsData.fromLab.blogs.map((item, index) => (
               <Link href={item.link} key={index} className="border border-[#E8E8E8] rounded-2xl overflow-hidden hover:shadow-[0_4px_10px_#FCE6E8] transition duration-500 ease-in-out">
                 <Image
@@ -43,12 +43,12 @@ const FromLab = () => {
                   alt={item.title}
                   width={200}
                   height={200}
-                  className="object-center w-full"
+                  className="object-center w-full h-[250px] md:h-[200px]"
                 />
                 <div className="p-6 text-start space-y-3">
                   <p className="text-[#E53935] text-sm font-normal">{item.date}</p>
                   <p className="font-medium text-lg leading-6">{t(`fromLab.blogs.${index}.title`)}</p>
-                  <p className="text-[#4A5565] font-normal leading-5 text-sm">{t(`fromLab.blogs.${index}.description`)}</p>
+                  <p className="text-[#4A5565] font-normal leading-5 text-sm">{t(`fromLab.blogs.${index}.description`).slice(0,120)}...</p>
                   <p     
                     className="text-[#E53935] flex items-center gap-2"
                   >

@@ -10,7 +10,7 @@ const MissionVision = () => {
     <section className="bg-[linear-gradient(179deg,rgba(252,230,232,0.20)_-222.79%,rgba(255,246,247,0.20)_202.03%)] py-15">
       <Container>
         <div className="space-y-4 md:space-y-10">
-          <section className="space-y-3 md:text-center">
+          <section className="space-y-3 text-center">
             <ResuableButton>
               <p className="text-sm font-medium leading-5 text-text-primary">
                 <span>{t("btnText.text1")}</span>{" "}
