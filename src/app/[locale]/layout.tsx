@@ -23,7 +23,12 @@ export const metadata: Metadata = {
   title: "Nexux Labs | Innovative Web Solutions",
   description:
     "Nexux Labs is a passionate team building modern web experiences, crafting scalable and user-friendly digital solutions for businesses and individuals.",
-  alternates: {
+    authors: [
+    { name: "Madan Golay Tamang" },
+    { name: "Sagar Pariyar" },
+    { name: "Deepesh Sunuwar" },
+  ],
+    alternates: {
     canonical: "https://www.nexuxlabs.com",
   },
   openGraph: {
