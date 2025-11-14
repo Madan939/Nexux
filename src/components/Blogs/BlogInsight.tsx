@@ -15,7 +15,7 @@ const BlogInsight = () => {
             {t("title.text1")}{" "}
             <span className="text-[#E50914]">{t("title.color1")}</span>
           </h2>
-          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 ">
+          <div className="mt-4 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 ">
             {articles.map((article, index) => (
               <ArticleCard
                 key={index}

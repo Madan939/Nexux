@@ -14,7 +14,7 @@ const HeroSection = ({ title, location, time, work }: heroProps) => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('/images/career-hero-bg.jpg')",
+            backgroundImage: "url('/images/jobs-hero-bg.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "left",
           }}

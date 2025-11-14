@@ -1,12 +1,8 @@
 {
-  "metaTitle": {
-    "title": "Nexux Labs",
-    "description": "We are a passionate team building web experiences."
-  },
   "heroSection": {
     "btnText": "Innovative, Adaptable and Future-Ready",
-    "title": "Building Digital Brands That Inspire Growth",
-    "subtitle": "Our greatest strength lies in our people — a fusion of creativity, expertise, and technology. At Nexux Lab, we design impactful digital experiences that help businesses grow and innovate with confidence.",
+    "title": "Building Innovative Digital Brands That Inspire Growth And Drive Success",
+    "subtitle": "Our greatest strength lies in our people, a fusion of creativity, expertise, and technology. At Nexux Lab, we design impactful digital experiences that help businesses grow and innovate with confidence.",
     "cta_1": "Get Started For Free ",
     "cta_2": "Explore Our Services"
   },
@@ -45,7 +41,7 @@
     "colorbtn": "Nexux Lab",
     "title": "Beyond",
     "colortitle": "Technology",
-    "title1": "— Empowering Growth with",
+    "title1": ", Empowering Growth with",
     "colortitle1": "Nexux Lab",
     "description_1": "At Nexux Lab, we go beyond delivering software, we build solutions that drive progress. Our goal is to help businesses simplify challenges, streamline workflows, and achieve measurable growth through smart technology.",
     "description_2": "With the right tools, strategy, and support, your team can overcome everyday obstacles and focus on what truly matters, innovation and success. Together, we transform ideas into scalable digital experiences that inspire results.",
@@ -63,25 +59,25 @@
     "description": "Discover the insights, inspirations, and innovations driving our team forward from design experiments and creative processes to the bold ideas defining the future of Nexux Lab.",
     "blogs": [
       {
-        "img": "/images/landingpage/design-for-uiux.svg",
-        "title": "Designing for User Experience",
-        "date": "October 20, 2025",
-        "description": "Best practices for creating intuitive, accessible, and delightful digital experiences.",
-        "link": "/"
+        "img": "/images/articles/business-growth.jpg",
+        "date": "November 13, 2025",
+        "title": "Driving Business Growth Through Scalable UI/UX Design",
+        "description": "In today’s competitive digital marketplace, user experience (UX) and user interface (UI) design are no longer just aesthetic considerations—they are strategic business drivers. Companies that invest in scalable UI/UX design gain a competitive edge by reducing development costs.",
+        "link": "/blogs/driving-business-growth-through-scalable-ui-ux-design"
       },
       {
-        "img": "/images/landingpage/cloud.svg",
-        "title": "The Future of Cloud Computing",
-        "date": "October 28, 2025",
-        "description": "Exploring emerging trends in cloud infrastructure and what they mean for businesses.",
-        "link": "/"
+        "img": "/images/articles/ai-integration.jpg",
+        "date": "September 12, 2025",
+        "title": "Integrating AI into Web Applications: Challenges & Insights",
+        "description": "From intelligent search to personalized recommendations, integrating AI into web applications requires balancing innovation with usability. This article explores practical strategies for deploying AI features that enhance user experiences without overwhelming them.",
+        "link": "/blogs/integrating-ai-into-web-applications-challenges-and-insights"
       },
       {
-        "img": "/images/landingpage/scalable.svg",
-        "title": "Building Scalable Systems",
-        "date": "October 31, 2025",
-        "description": "How to architect applications that grow with your business needs.",
-        "link": "/"
+        "img": "/images/articles/performance-optimization.jpg",
+        "date": "August 8, 2025",
+        "title": "Performance Optimization: Making Web Apps Lightning Fast",
+        "description": "In an era where milliseconds matter, optimizing performance is key. We break down techniques for reducing load times, minimizing render-blocking resources, and using modern frameworks efficiently to ensure a smooth and fast user experience.",
+        "link": "/blogs/performance-optimization-making-web-apps-lightning-fast"
       }
     ],
     "cta_text": "Read More",

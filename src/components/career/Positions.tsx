@@ -155,7 +155,7 @@ const Positions = () => {
                       </div>
                     ))}
                 </section>
-                <p className="flex items-center gap-3 border w-fit px-4 py-2 bg-[#E50914] text-white  rounded-sm">
+                <p className="flex items-center gap-3 border w-fit px-4 py-2 bg-[#E50914] hover:bg-[#FF0F1E] transition duration-500 ease-in-out text-white  rounded-sm">
                   <span className="text-sm leading-5 font-semibold">
                     Apply Now
                   </span>

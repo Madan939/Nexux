@@ -31,7 +31,7 @@ const StarBorder = ({
           animationDuration: speed
         }}
       ></div>
-      <div className="inner-content font-semibold w-[156px] md:w-[200px] h-11 md:h-13 flex justify-center items-center">{children}</div>
+      <div className="inner-content font-semibold w-full md:w-[200px] h-11 md:h-13 flex justify-center items-center">{children}</div>
     </Component>
   );
 };

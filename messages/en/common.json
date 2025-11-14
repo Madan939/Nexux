@@ -18,13 +18,13 @@
       { "href": "/about", "label": "About Us" },
       { "href": "/team", "label": "Team" },
       { "href": "/careers", "label": "Careers" },
-      { "href": "/privacy-policy", "label": "Privacy Policy" }
+      { "href": "/contact-us", "label": "Contact Us" }
     ],
     "Services": "Services",
     "services": [
-      { "href": "/", "label": "Web Development" },
-      { "href": "/", "label": "Product Design" },
-      { "href": "/", "label": "Cloud Solutions" },
+      { "href": "/services/#web-development", "label": "Web Development" },
+      { "href": "/services/#product-design", "label": "Product Design" },
+      { "href": "/services/#cloud-solutions", "label": "Cloud Solutions" },
       { "href": "/blogs", "label": "Blogs" }
     ],
     "connect": "Connect",

@@ -46,7 +46,7 @@ const Header = () => {
               const isActive = normalizePath(pathname) === item.href;
               return (
                 <div key={index} className="relative group">
-                  <Link href={item.href} className="font-medium leading-5">
+                  <Link href={item.href} className={`font-medium leading-5 hover:text-[#E50914] ${ isActive&&"text-[#E50914]"}`}>
                     {t(`header.${index}.${"label"}`)}
                   </Link>
                   <span
@@ -62,7 +62,7 @@ const Header = () => {
           {/* Contact Button */}
           <Link
             href={t("contact.href")}
-            className="hidden xl:block bg-[#E50914] text-white px-7 py-3 rounded-3xl leading-4 font-semibold"
+            className="hidden xl:block bg-[#E50914] hover:bg-[#FF0F1E] transition duration-500 ease-in-out text-white px-7 py-3 rounded-3xl leading-4 font-semibold"
           >
             {t(`contact.label`)}
           </Link>
