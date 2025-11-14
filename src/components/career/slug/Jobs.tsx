@@ -23,6 +23,7 @@ const Jobs = () => {
             />
             <Container>
               <Details
+              title={item.title}
                 about={item.about}
                 responsibilites={item.responsibilities}
                 requirements={item.requirements}

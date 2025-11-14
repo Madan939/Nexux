@@ -10,6 +10,7 @@ import LenisScrollBehavior from "@/src/components/shared/LenisScrollBehavior";
 import { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import WhatsAppWidget from "@/src/components/shared/layout/WhatsAppWidget";
+import { Toaster } from "sonner";
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -99,6 +100,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             {children}
             <Footer />
           </LenisScrollBehavior>
+          <Toaster richColors position="top-right" />
         </NextIntlClientProvider>
         <WhatsAppWidget />
       </body>
